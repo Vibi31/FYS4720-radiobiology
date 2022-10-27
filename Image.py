@@ -83,6 +83,14 @@ plt.savefig('g3')
 plt.show()
 
 
+plt.title('group 2 and 3, Time curve after 2Gy irradiation')
+plt.ylabel('pixel value')
+plt.xlabel('hours')
+plt.plot(dose, g3)
+plt.plot(dose, g2)
+plt.legend(['group 2', 'group 3'])
+plt.savefig('g23')
+plt.show()
 
 
 
